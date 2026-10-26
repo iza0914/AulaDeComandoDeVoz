@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Life+Savers:wght@400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Cormorant Garamond", serif;;
+    background-color: burlywood;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbot{
+    width: 500px;
+    max-width: 95%;
+    background: #e6e3bc;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgb(223, 136, 5);
+    overflow: hidden;
+}
+
+header{
+    background: #755c18;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+.conversa{
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.mensagem{
+    max-width: 80%;
+    padding: 12px 16px;
+    border-radius: 12px;
+}
+
+.usuario{
+    background: #755c18;
+    color: #fff;
+    align-self: flex-end;
+}
+
+.bot{
+    background: #e2e8f0;
+    color: #000000;
+    align-self: flex-start;
+}
+
+.controles{
+    padding: 15px;
+    display: flex;
+    gap: 8px;
+    border-top: 1px solid #ffffff;
+}
+
+input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button{
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #bb6842;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+button:hover{
+    background: #8a8053;
+}
+
+#btnFalar{
+    background: brown;
+}
+
+#btnFalar:hover{
+    background: rgb(121, 42, 42);
+}
+
+#status{
+    text-align: center;
+    min-height: 30px;
+    padding: 5px;
+    color: burlywood;
+}

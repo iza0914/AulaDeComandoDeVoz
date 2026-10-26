@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot por voz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./image/microphone.png" type="image/x-icon">
+</head>
+<body>
+    <main class="chatbot">
+        <header>
+            <h1>🤖 Assistente Virtual</h1>
+            <p>Digite uma mensagem ou utilize o microfone.</p>
+        </header>
+        <section id="conversa" class="conversa">
+            <div class="mensagem bot">
+                Olá! Como posso ajudar?
+            </div>
+        </section>
+        <section class="controles">
+            <input type="text" id="mensagem" placeholder="Digite sua mensagem...">
+            <button id="btnEnviar">Enviar</button>
+            <button id="btnFalar">🎙️ Falar</button>
+        </section>
+        <p id="status"></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
